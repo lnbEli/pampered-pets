@@ -13,7 +13,7 @@ body {
   justify-content: space-between;
   padding: 0 10%;
   align-items: center;
-  background-color: #1f2937;
+  background-color: rgb(172, 52, 52);
 }
 
 ul {
@@ -34,6 +34,7 @@ a {
 .logo-left {
   height: 50px;
   color: #f9faf8;
+  border: 0;
 }
 
 .nav-bar-right {
@@ -64,6 +65,11 @@ a {
   justify-content: center;
   height: 450px;
 }
+
+/* .fig-div {
+  display: flex;
+  justify-content: center;
+} */
 
 .fig-list {
   display: flex;
@@ -117,13 +123,37 @@ figure {
   justify-content: center;
   align-items: center;
   height: 375px;
+  padding: 0 10%;
 }
 
 .footer-btm {
   height: -75px;
 }
 
+.signup-box {
+  height: 170px;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
 .signup-txt {
-  height: 150px;
-  padding: 0 10%;
+  align-self: center;
+  font-size: 20px;
+}
+
+.signup-btn {
+  width: auto;
+  height: auto;
+  align-self: center;
+  font-size: 20px;
+  padding: 5px 25px;
+  border-radius: 10px;
+}
+
+.signup-txt p,
+.signup-txt h3 {
+  padding: 0;
+  margin: 0;
 }
